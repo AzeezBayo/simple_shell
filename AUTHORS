@@ -1,8 +1,32 @@
-# This file lists all individuals that contributed content to the repository.
+import AUTHORS from "./simple_shell/AUTHORS"
 
 
-<>
-<Azeez Bayo azeez.bayo@outlook.com twitter = @RealAzeezBayo/>
-<Wanda Dausi tawiedausi@gmail.com twitter = @WandaDausi/>
 
-</>
+export default function AUTHORS(){
+	const Author = AUTHORS.map(Author => {
+
+	return (
+	
+	<>
+	<p>This file list the contributors to this project </p>
+
+	<Author
+	id={1}
+	name={AzeezBayo}
+	email={azeez.bayo@outlook.com}
+	twitterHandle={@RealAzeezBayo}
+	/>
+
+	<Author
+	id={2}
+	name={WandaDausi}
+	email={tawiedausi@gmail.com}
+	twitterHandle={@WandaDausi}
+	/>
+
+	< />
+	)}
+
+	}) 
+
+
