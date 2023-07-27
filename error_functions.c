@@ -34,3 +34,4 @@ void print_error(char **av, char *err)
 	_errputs(": ");
 	_errputs(err);
 }
+
